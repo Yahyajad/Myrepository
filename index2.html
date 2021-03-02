@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+  <META CHARSET="comic sans ms-8">
+  <META Name="Description" content="My first HTML project">
+  <Title>My first HTML</Title>
+  <Link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="home.js"></script>
+  <container id="container">
+
+</HEAD>
+
+
+<BODY CLASS="body">
+
+ <header>
+
+  <p id="hour" style="font-family: fantasy;color: blue; text-align: center;font-size: xx-large;flex-wrap: wrap;width: 100%;"></p>
+
+    <script>
+
+var a= new Date();
+document.getElementById("hour").innerHTML=a;
+
+    </script>
+
+  </header>
+
+  <div id="background-image" style="background-image: url('https://uhdwallpapers.org/uploads/converted/18/03/30/surf-board-on-the-beach-2560x1440_64469-mm-90.jpg');">
+
+
+    <br /><br />
+    <label for="cars"><b> Pick a number</b></label><br />
+    <select>
+      <time value=""></label>
+        <color value="1">1</label>
+          <option value="2">2</label>
+          <option value="3">3</label>
+    </select> 
+    <br /><br />
+
+
+      <input type="button" value="OK">
+
+
+    <h1 class="textarea" style="color:blue; font-size: 15px; font-family: comic sans ms">Your comment</h1>
+    <br />
+    <textarea class="textarea"> Your comment here </textarea>
+      </nav>
+
+  <br /><Input type="submit" style="width: 70px" ; /><br />
+  <br /><button onclick="run()" style="width: 80px;">W3schools</button>
+
+  <script>
+    function run() {
+
+      var URL = "https://www.w3schools.com/";
+      window.open(URL, null)
+    }
+  </script>
+
+<div id="div2">sa</div>
+  <script> onload = addElement();
+
+    function addElement() {
+      // create a new div element 
+      let newDiv = document.createElement("div");
+      // and give it some content 
+      var newContent = document.createTextNode("Hello JAD!");
+      // add the text node to the newly created div
+      newDiv.appendChild(newContent);
+
+      // add the newly created element and its content into the DOM 
+      var currentDiv = document.getElementById("div2");
+      document.body.insertBefore(newDiv, currentDiv);
+    }
+  </script>
+
+<br />
+<br />
+<br />
+
+  <br /><br /><a title="cheat sheet" class="Link1" href="https://websitesetup.org/html5-cheat-sheet/"
+   style="color:red; font-family: 'Courier New', Courier, monospace;float: inline-start;"
+    TARGET="_blank">CHEAT SHEET</a>
+  <br />
+  <br />
+
+
+    <p id="p1"> </p>
+
+    <script>
+      onmousewheel = function greetin() {
+        var time = new Date().getHours;
+        var Greetin = ''
+        if (time < 12) {
+          Greetin = 'Good morning'
+        } else {
+          Greetin = '******Good evening Jad*******'
+        }
+
+        document.title = Greetin
+      }
+    </script>
+
+<p id='7obi'></p>
+
+<script>
+  var text="";
+var i;
+for (i=3; i < 10; i++){
+  var text= text + i + " number" + "<br>";
+};
+
+document.getElementById('7obi').innerHTML=text;
+</script>
+
+</BODY>
+</container>
+
+</HTML>
